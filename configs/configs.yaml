@@ -1,0 +1,43 @@
+# @Time    : 2019/5/2 3:35 PM
+# @Author  : Nikky
+# @Site    :
+# @File    : setting.yaml
+taobao:
+  username: yz_shunjian
+  password: None
+  server: http://127.0.0.1:4723/wd/hub
+  desired_caps:
+      platformName: Android
+      platformVersion: 5.1
+      deviceName: 192.168.8.100:62002
+      appPackage: com.taobao.taobao
+      appActivity: com.taobao.tao.welcome.Welcome
+      unicodeKeyboard: True
+      resetKeyboard: True
+      noReset: False
+douyin:
+  username: yz_shunjian
+  password: None
+  server: http://127.0.0.1:4723/wd/hub
+  desired_caps:
+      platformName: Android
+      platformVersion: 5.1
+      deviceName: 192.168.8.100:62002
+      appPackage: com.ss.android.ugc.aweme
+      appActivity: .main.MainActivity
+      unicodeKeyboard: True
+      resetKeyboard: True
+      noReset: False
+chelun:
+  username: yz_shunjian
+  password: None
+  server: http://127.0.0.1:4723/wd/hub
+  desired_caps:
+      platformName: Android
+      platformVersion: 5.1
+      deviceName: 192.168.8.100:62002
+      appPackage: cn.eclicks.wzsearch
+      appActivity: cn.eclicks.wzsearch.ui.StartPageActivity
+      unicodeKeyboard: True
+      resetKeyboard: False
+      noReset: False
